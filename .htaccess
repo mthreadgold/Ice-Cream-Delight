@@ -1,0 +1,1 @@
+RewriteRule ^media$ media.html [L]
