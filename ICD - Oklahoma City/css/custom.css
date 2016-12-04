@@ -397,7 +397,7 @@ img::-moz-selection {
 	-webkit-transition: background-image 0.2s ease-in-out;
 	transition: background-image 0.2s ease-in-out;	
 }
-.caption-one, .caption-two {
+.caption-one, .caption-two, .caption-four {
 	text-shadow: 2px 2px #000;
 }
 .caption-three {
@@ -541,7 +541,7 @@ input[type=submit] {
 	padding: 10px 15px;
 	color: #0184cc;
 }
-.btn-header-pink {
+.btn-header-black {
 	border-radius: 4px;
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -553,7 +553,7 @@ input[type=submit] {
 	padding: 10px 15px;
 	color: #fff;
 }
-.btn-header-pink:hover, .btn-header-pink:focus {
+.btn-header-black:hover, .btn-header-black:focus {
 	border-radius: 4px;
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -563,7 +563,7 @@ input[type=submit] {
 	transition: all .3s ease-in-out;
 	background-color: #fff;
 	padding: 10px 15px;
-	color: #f6a2c4;
+	color: #2e2e2e;
 }
 .navbar-nav > li > a {
 	padding-top: 10px;
@@ -893,19 +893,154 @@ header,
 .vendor-btn {
 	margin-bottom: 50px;
 }
-/* Kupcakz banner */
-.kupcakz-banner {
+/* Cuppies & Joe banner */
+.cuppiesandjoe-banner {
 	margin-top: 75px;
-	background-color: #f6a2c4;
+	background-color: #2e2e2e;
 	height: auto;
 	padding: 35px 15px 35px 15px;
-	border: 3px dashed black;
+	border: 3px dashed white;
 }
-.kupcakz-logo {
-	margin-bottom: 10px;
+.cuppiesandjoe-text {
+	color: #fff;
+	margin: 0;
 }
-@media screen and (min-width: 992px) {
-.kupcakz-text {
-	margin: 10px 0 20px 0;
-}
-}
+	@media only screen and (max-width : 479px) {
+			.cuppiesandjoe-logo {
+				margin-top: 0;
+				margin-bottom: 20px;			
+			}
+			.cuppiesandjoe-disclaimer {
+				font-size: 0.90em;
+				margin: 0;
+				color: #fff;	
+				padding-bottom: 30px;
+				margin-top: 10px;
+			}
+		.caption-one {
+			margin-top: -10px;
+			margin-bottom: 20px;
+		}
+		.caption-two {
+			margin-top: 0px;
+			margin-bottom: 50px;
+		}		
+		.caption-three {
+			margin-top: 0px;
+			margin-bottom: 50px;
+		}		
+		.caption-four {
+			margin-top: -70px;
+			margin-bottom: 40px;
+		}					
+		}
+	@media only screen and (min-width : 480px) {
+		.cuppiesandjoe-logo {
+			margin-top: 0;
+			margin-bottom: 20px;			
+		}
+		.cuppiesandjoe-disclaimer {
+			font-size: 0.90em;
+			margin: 0;
+			color: #fff;	
+			padding-bottom: 40px;
+		}	
+		.caption-one {
+			margin-top: 100px;
+			margin-bottom: 20px;
+		}
+		.caption-two {
+			margin-top: 120px;
+			margin-bottom: 40px;
+		}		
+		.caption-three {
+			margin-top: 110px;
+			margin-bottom: 30px;
+		}		
+		.caption-four {
+			margin-top: 70px;
+			margin-bottom: 30px;
+		}			
+		}
+    @media only screen and (min-width : 768px) {
+		.cuppiesandjoe-logo {
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+		.cuppiesandjoe-disclaimer {
+			font-size: 0.90em;
+			margin: 0;
+			color: #fff;	
+			padding-bottom: 40px;
+		}	
+		.caption-one {
+			margin-top: -25px;			
+			margin-bottom: 10px;
+		}
+		.caption-two {
+			margin-top: 0px;
+			margin-bottom: 40px;
+		}		
+		.caption-three {	
+			margin-top: 0px;
+			margin-bottom: 40px;
+		}			
+		.caption-four {
+			margin-top: -50px;			
+			margin-bottom: 50px;
+		}			
+    }
+    @media only screen and (min-width : 992px) {
+		.cuppiesandjoe-logo {
+			margin-top: 25px;
+		}
+		.cuppiesandjoe-disclaimer {
+			font-size: 0.90em;
+			margin: 0;
+			color: #fff;	
+			padding-bottom: 20px;
+		}		
+		.caption-one {
+			margin-top: -25px;
+			margin-bottom: 0;
+		}
+		.caption-two {
+			margin-top: -10px;
+			margin-bottom: 40px;
+		}		
+		.caption-three {
+			margin-top: 0px;			
+			margin-bottom: 40px;
+		}	
+		.caption-four {
+			margin-top: -50px;			
+			margin-bottom: 50px;
+		}				
+    }
+    @media only screen and (min-width : 1200px) {
+		.cuppiesandjoe-logo {
+			margin-top: 25px;
+		}
+		.cuppiesandjoe-disclaimer {
+			font-size: 0.90em;
+			margin: 0;
+			color: #fff;	
+			padding-bottom: 20px;
+		}		
+		.caption-one {
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+		.caption-two {		
+			margin-top: 0px;
+			margin-bottom: 40px;
+		}		
+		.caption-three {
+			margin-top: 0px;			
+			margin-bottom: 40px;
+		}	
+		.caption-four {
+			margin-top: -60px;
+			margin-bottom: 50px;
+		}			
+    }	
