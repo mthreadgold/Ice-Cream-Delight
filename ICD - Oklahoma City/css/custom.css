@@ -195,10 +195,10 @@ footer a:hover {
 	text-decoration: underline;
 }
 .copyright {
-	margin-top: 20px;
+	margin-top: 13px;
 }
 .socialmediarow {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 @media(max-width:767px) {
 	.copyright {
@@ -887,6 +887,14 @@ header,
 /* OKC Styles */
 .okc-email {
 	margin-top: 10px;
+}
+
+/* Products page styles */
+.menu-section {
+	margin-bottom: 50px;
+}
+.menu-wrapper {
+	 display: inline-block;
 }
 
 /* Vendor page styles */
