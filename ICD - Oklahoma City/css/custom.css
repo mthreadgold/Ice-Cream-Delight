@@ -195,10 +195,10 @@ footer a:hover {
 	text-decoration: underline;
 }
 .copyright {
-	margin-top: 13px;
+	margin-top: 20px;
 }
 .socialmediarow {
-	margin-top: 5px;
+	margin-top: 10px;
 }
 @media(max-width:767px) {
 	.copyright {
@@ -314,12 +314,6 @@ img::-moz-selection {
 }
 /* End general custom styles */
 /* Home page styles */
-.booking-wrapper {
-	margin-bottom: 10px;
-}
-.or-seperator {
-	margin-bottom: 5px;
-}
 .btn-circle {
     width: 70px;
     height: 70px;
